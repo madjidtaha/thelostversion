@@ -1,0 +1,23 @@
+!SESSION 2013-06-13 01:43:54.142 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data /home/madjidtaha/Documents/Travaux/PokemonGithub -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 4 566 2013-06-13 02:25:00.261
+!MESSAGE Could not save master table to file '/home/madjidtaha/Documents/Travaux/PokemonGithub/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources'.
+!STACK 0
+java.io.FileNotFoundException: /home/madjidtaha/Documents/Travaux/PokemonGithub/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources (Aucun fichier ou dossier de ce type)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:136)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1227)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1220)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1197)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
